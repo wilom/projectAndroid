@@ -1,0 +1,32 @@
+!define TEST_SYSTEM {fit}
+!path C:\Users\Dhika\Workspace\Example\bin
+
+|!-eg.bowling.fixtures.FinalScore-!|
+|doRolls()        |doScore()       |
+|20               |10              |
+|20               |10              |
+|20               |10              |
+|20               |10              |
+|20               |10              |
+
+|!-eg.bowling.fixtures.SimpleScoreGame-!|
+|Rolls()            |Score()            |
+|0                  |0                  |
+
+
+|!-eg.bowling.fixtures.GameTiming-!                                                            |
+|pins|roll()|currentFrame()|currentBall()|scorableFrame()|currentScore()|validGame()|gameOver()|
+|6   |true  |1             |2            |0              |0             |true       |false     |
+|10  |true  |2             |1            |1              |16            |true       |false     |
+|21  |true  |2             |2            |1              |16            |true       |false     |
+|3   |true  |3             |1            |2              |40            |true       |false     |
+|16  |true  |3             |2            |2              |40            |true       |false     |
+
+|!-eg.bowling.fixtures.ScoreGame-!                                                    |
+|pins|Rolls()|Score()|currentBall()|parseRoll()|rightScore()|wrongScore()|scoreIndex()|
+|6   |20     |10     |2            |STRIKE     |0           |56          |44          |
+|10  |26     |38     |1            |STRIKE     |16          |true        |            |
+|10  |20     |10     |2            |STRIKE     |16          |true        |            |
+|3   |20     |10     |1            |STRIKE     |40          |true        |            |
+|16  |20     |10     |2            |STRIKE     |40          |true        |            |
+

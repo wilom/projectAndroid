@@ -1,0 +1,10 @@
+!define TEST_SYSTEM {slim} 
+!path https://github.com/wilom/projectAndroid.git
+
+|!-calculator.Main-!                              |
+|operandA|operandB|kali()|bagi()|tambah()|kurang()|
+|5       |1       |6     |4     |5       |5       |
+|4       |2       |6     |2     |8       |2       |
+|3       |3       |6     |0     |9       |1       |
+|2       |4       |6     |-2    |8       |0       |
+|1       |5       |6     |-4    |5       |0       |

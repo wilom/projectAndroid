@@ -5,15 +5,15 @@ package Kasus.Tes.Unit;
  */
 public class Kalkulator {
 
-    public double kali(double operandA,double operandB){
+    public double mul(double operandA,double operandB){
         return operandA*operandB;
     }
 
-    public double bagi(double operandA,double operandB){
+    public double div(double operandA,double operandB){
         return operandA/operandB;
     }
 
-    public double tambah(double operandA,double operandB){
+    public double sum(double operandA,double operandB){
         return operandA+operandB;
     }
 
